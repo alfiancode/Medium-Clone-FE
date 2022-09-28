@@ -16,7 +16,9 @@ const NavbarMenu = () => {
         <div className="flex items-center justify-between h-16 mx-3 ">
           <div className="flex-1 md:flex md:items-center md:gap-12">
             <Link className=" " href="/">
-              <span className="font-serif text-gray-800">Medium</span>
+              <span className="font-serif text-gray-800 cursor-pointer">
+                Medium
+              </span>
             </Link>
           </div>
           <div className="md:flex md:items-center md:gap-12">
@@ -76,7 +78,7 @@ const NavbarMenu = () => {
               <Menu as="div" className="block sm:hidden">
                 <Menu.Button>
                   <div className="block">
-                    <div className="p-2 text-gray-600 transition bg-gray-100 rounded hover:text-gray-600/75">
+                    <div className="p-2 text-gray-600 transition  rounded hover:text-gray-600/75">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="w-5 h-5"
@@ -94,7 +96,7 @@ const NavbarMenu = () => {
                     </div>
                   </div>
                 </Menu.Button>
-                <Menu.Items className="absolute top-20 left-3 right-3 bg-white rounded divide divide-gray-100 shadow ">
+                <Menu.Items className="absolute top-20 left-3 right-3 bg-gray-300 rounded divide divide-gray-100 shadow ">
                   {links.map((link) => (
                     /* Use the `active` state to conditionally style the active item. */
                     <Menu.Item key={link.href} as="div">
