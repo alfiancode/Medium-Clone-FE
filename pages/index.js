@@ -16,7 +16,7 @@ export default function Home() {
       <div className="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-1 md:flex md:items-center md:gap-12">
-            {/* <Link className="block text-teal-600" href="/">
+            <Link className="block text-teal-600" href="/">
               <div>
                 <span className="sr-only">Home</span>
                 <svg
@@ -30,11 +30,11 @@ export default function Home() {
                     fill="currentColor"
                   />
                 </svg>
-              </div>{" "}
-            </Link> */}
+              </div>
+            </Link>
           </div>
           <div className="md:flex md:items-center md:gap-12">
-            <nav
+            <div
               className="hidden md:block"
               aria-labelledby="header-navigation"
             >
@@ -91,7 +91,7 @@ export default function Home() {
                   </Link>
                 </li>
               </ul>
-            </nav>
+            </div>
             <div className="flex items-center gap-4">
               <div className="sm:gap-4 sm:flex">
                 <Link
@@ -133,7 +133,7 @@ export default function Home() {
                 <Menu.Items className="absolute top-20 left-3 right-3 bg-white rounded divide divide-gray-100 shadow dark:bg-gray-700">
                   {links.map((link) => (
                     /* Use the `active` state to conditionally style the active item. */
-                    <Menu.Item key={link.href} as={Fragment} class>
+                    <Menu.Item key={link.href} as="div" class>
                       {({ active }) => (
                         <Link
                           href="#"
