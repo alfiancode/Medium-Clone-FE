@@ -12,7 +12,7 @@ const links = [
 ];
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <div className="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-1 md:flex md:items-center md:gap-12">
@@ -111,8 +111,8 @@ export default function Home() {
               </div>
               <Menu as="div" className="">
                 <Menu.Button>
-                  <div className="block md:hidden">
-                    <button className="p-2 text-gray-600 transition bg-gray-100 rounded hover:text-gray-600/75">
+                  <div className="block">
+                    <div className="p-2 text-gray-600 transition bg-gray-100 rounded hover:text-gray-600/75">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="w-5 h-5"
@@ -127,21 +127,22 @@ export default function Home() {
                           d="M4 6h16M4 12h16M4 18h16"
                         />
                       </svg>
-                    </button>
+                    </div>
                   </div>
                 </Menu.Button>
-                <Menu.Items className="absolute top-20 left-3 right-3 bg-white rounded divide divide-gray-100 shadow dark:bg-gray-700">
+                <Menu.Items className="absolute top-20 left-3 right-3 bg-white rounded divide divide-gray-100 shadow dark:bg-gray-700 ">
                   {links.map((link) => (
                     /* Use the `active` state to conditionally style the active item. */
-                    <Menu.Item key={link.href} as="div" class>
+                    <Menu.Item key={link.href} as="div">
                       {({ active }) => (
-                        <Link
-                          href="#"
-                          className={`flex py-3 px-6 ${
-                            active ? "bg-gray-100" : ""
-                          }`}
-                        >
-                          {link.label}
+                        <Link href="#">
+                          <div
+                            className={`flex py-3 px-6 ${
+                              active ? "bg-gray-100" : ""
+                            }`}
+                          >
+                            {link.label}
+                          </div>
                         </Link>
                       )}
                     </Menu.Item>
