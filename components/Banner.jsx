@@ -1,13 +1,14 @@
-import Image from "next/image";
 import React from "react";
 
 const Banner = () => {
   return (
+    // make bg yellow with heigh 80vh
     <div className=" bg-[rgb(255,192,23)] h-[80vh]  ">
+      {/* container for conten with max w */}
       <div className="flex justify-between max-w-6xl h-full mx-auto ">
         <div
           // make classname heigh 85vh with bg yellow
-          className="  justify-center items-center mx-3 flex flex-col md:basis-2/5  md:justify-center  "
+          className="  justify-center items-center mx-3 flex flex-col md:basis-2/5 md:mx-0 md:justify-center  "
         >
           {/* text 70px with serif font paading 93px  */}
           <div className="text-7xl  font-serif  ">
@@ -25,14 +26,9 @@ const Banner = () => {
             </button>
           </div>
         </div>
-        <div className="hidden md:flex  ">
+        <div className="hidden md:flex">
           {/* import image from public medium.png */}
-          <Image
-            src={"/medium.png"}
-            width="500"
-            height="500"
-            className="object-contain "
-          />
+          <img src="/medium.png" alt="medium" />
         </div>
       </div>
     </div>

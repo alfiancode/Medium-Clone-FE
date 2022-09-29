@@ -5,7 +5,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      // add font family quicksand
+      fontFamily: {
+        sans: ["Quicksand", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };
