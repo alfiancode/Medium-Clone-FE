@@ -12,7 +12,7 @@ const links = [
 const NavbarMenu = () => {
   return (
     <div className="bg-[rgb(255,192,23)] border-b border-black">
-      <div className="  mx-auto   max-w-4xl ">
+      <div className="  mx-auto   max-w-6xl ">
         <div className="flex items-center justify-between h-16 mx-3 ">
           <div className="flex-1 md:flex md:items-center md:gap-12">
             <Link className=" " href="/">

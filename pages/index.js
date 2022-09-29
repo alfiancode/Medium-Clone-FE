@@ -5,11 +5,13 @@ import Link from "next/link";
 import { Fragment } from "react";
 import Banner from "../components/Banner";
 import Layout from "../components/Layout";
+import Trending from "../components/Trending";
 
 export default function Home() {
   return (
     <Layout>
       <Banner />
+      <Trending />
     </Layout>
     // <div>
     //   <div className="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
