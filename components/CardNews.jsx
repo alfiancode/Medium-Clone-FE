@@ -3,7 +3,7 @@ import React from "react";
 
 const CardNews = () => {
   return (
-    <div className="mx-3 mt-10 w-full">
+    <div className="px-3 mt-10 w-full">
       <div className="flex">
         <div className="basis-2/3">
           <div className="flex flex-col">
@@ -33,13 +33,13 @@ const CardNews = () => {
             </div>
           </div>
         </div>
-        <div className="flex-1 self-center">
+        <div className=" ">
           <Image
-            src="https://picsum.photos/100"
+            src="https://picsum.photos/200"
             alt="Picture of the author"
-            width={100}
-            height={100}
-            className="bg-cover "
+            width="100%"
+            height="100%"
+            className="bg-cover bg-center "
           />
         </div>
       </div>
