@@ -3,9 +3,9 @@ import React from "react";
 
 const CardTrending = () => {
   return (
-    <div className="flex  h-28 mt-10">
+    <div className="flex   mt-10 pr-5">
       {/* left side  */}
-      <div className="flex w-1/6 justify-start items-start relative -mt-5">
+      <div className="flex w-1/6 justify-start items-start relative -mt-5 mr-5">
         <div className="text-5xl font-extrabold text-gray-400">01</div>
       </div>
       {/* right side */}
@@ -23,7 +23,7 @@ const CardTrending = () => {
             <p className="text-sm font-sans font-medium">Alfian Syah</p>
           </div>
         </div>
-        <div className="font-bold tracking-wide my-3">
+        <div className="font-bold tracking-wide my-2">
           Apple Car: Bad News for Tesla
         </div>
         <div className="flex">
