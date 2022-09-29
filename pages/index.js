@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Fragment } from "react";
 import Banner from "../components/Banner";
 import Layout from "../components/Layout";
+import NewsSection from "../components/NewsSection";
 import Trending from "../components/Trending";
 
 export default function Home() {
@@ -12,6 +13,9 @@ export default function Home() {
     <Layout>
       <Banner />
       <Trending />
+      {/* divider */}
+      <div className="border-b-2 border-gray-200 my-8" />
+      <NewsSection />
     </Layout>
     // <div>
     //   <div className="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
