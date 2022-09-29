@@ -23,10 +23,10 @@ const CardNews = () => {
             <div className="font-bold tracking-wide my-2">
               Apple Car: Bad News for Tesla
             </div>
-            <div className=" hidden text-sm md:flex text-gray-500">
+            <div className=" hidden text-sm md:flex text-gray-500 mr-20 mb-2">
               Apple is reportedly working on a car, and it could be a big Lorem
               ipsum dolor sit amet consectetur adipisicing elit. Saepe,
-              repudiandae? problem for Tesla.
+              repudiandae? problem for Tesla. repudiandae? problem for Tesla.
             </div>
             <div className="flex">
               <p className="text-sm font-sans font-medium text-gray-500 mr-2">
@@ -42,7 +42,7 @@ const CardNews = () => {
             </div>
           </div>
         </div>
-        <div className="md:w-44 md:h-36 justify-center  flex  ">
+        <div className="md:w-48 md:h-32 justify-center  flex  ">
           <Image
             src="https://picsum.photos/200"
             alt="Picture of the author"
