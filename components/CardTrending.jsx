@@ -3,7 +3,7 @@ import React from "react";
 
 const CardTrending = () => {
   return (
-    <div className="flex   mt-10 pr-5">
+    <div className="flex   mt-10 pr-5 ">
       {/* left side  */}
       <div className="flex w-1/6 justify-start items-start relative -mt-5 mr-5">
         <div className="text-5xl font-extrabold text-gray-400">01</div>

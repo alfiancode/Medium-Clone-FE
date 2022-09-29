@@ -4,10 +4,10 @@ import CardTrending from "./CardTrending";
 import Title from "./Title";
 const Trending = () => {
   return (
-    <div className="mx-3 mt-12 mb-20">
+    <div className=" mt-12 mb-10 pl-3  justify-center mx-auto max-w-6xl ">
       {/* title */}
       <Title />
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap justify-between">
         <CardTrending />
         <CardTrending />
         <CardTrending />
