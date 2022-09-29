@@ -7,7 +7,12 @@ const Trending = () => {
     <div className="mx-3 mt-12 mb-20">
       {/* title */}
       <Title />
-      <CardTrending />
+      <div className="flex flex-wrap">
+        <CardTrending />
+        <CardTrending />
+        <CardTrending />
+        <CardTrending />
+      </div>
     </div>
   );
 };
