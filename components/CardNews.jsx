@@ -46,8 +46,8 @@ const CardNews = () => {
           <Image
             src="https://picsum.photos/200"
             alt="Picture of the author"
-            width={200}
-            height={200}
+            width={150}
+            height={150}
             // layout="fill"
             objectFit="cover" // ch
           />
