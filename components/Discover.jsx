@@ -11,7 +11,7 @@ const data = [
 ];
 const Discover = () => {
   return (
-    <div className="mt-10 mx-3  sticky top-0 md:pt-5">
+    <div className="mt-10 mx-3  sticky top-5">
       <div className="text-sm font-bold uppercase">
         discover more of what matters to you{" "}
       </div>
