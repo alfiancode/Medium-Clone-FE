@@ -4,13 +4,13 @@ const index = () => {
   // login page with social media buttons
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen ">
-      <div className="md:border  max-w-xl shadow-lg p-10">
+    <div className="flex flex-col items-center justify-center h-screen  max-w-xl mx-auto">
+      <div className="md:border  md:shadow-lg py-20 ">
         <div className="font-serif text-2xl tracking-wide text-center">
-          Welcome back
+          Welcome back.
         </div>
 
-        <div className="md:border md:rounded-xl ">
+        <div className=" ">
           {/* button social mdia login */}
           <div className="flex flex-col items-center justify-center px-10 py-24 ">
             <>
