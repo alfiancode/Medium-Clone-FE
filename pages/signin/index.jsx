@@ -59,7 +59,7 @@ const index = () => {
             </>
           </div>
           {/* p with gray text */}
-          <p className="text-gray-500 text-center mt-4 ">
+          <p className="text-gray-500 text-center mt-4  mx-14">
             Click “Sign In” to agree to Medium’s Terms of Service and
             acknowledge that Medium’s Privacy Policy applies to you.
           </p>
