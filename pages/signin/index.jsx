@@ -1,7 +1,7 @@
 import React from "react";
 
 const index = () => {
-  // login page with social media buttons
+  const signInWithGoogle = () => {};
 
   return (
     <div className="flex flex-col items-center justify-center h-screen  max-w-xl mx-auto">
@@ -38,6 +38,8 @@ const index = () => {
               <button
                 type="button"
                 className="text-white bg-[#4285F4] hover:bg-[#4285F4]/90 focus:ring-4 focus:outline-none focus:ring-[#4285F4]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#4285F4]/55 mr-2 mb-2"
+                // click button to login with google
+                onClick={signInWithGoogle}
               >
                 <svg
                   className="mr-2 -ml-1 w-4 h-4"
